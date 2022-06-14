@@ -7,6 +7,10 @@ body {
     font-size:24px;
     color:blue;
 }
+.page-heading {
+    text-align:center;
+    margin-bottom:20px;
+}
 .container {
     width:780px;
     margin:0 auto;
@@ -36,6 +40,7 @@ aside {
     float:left;
     width:120px;
     padding:30px 0 0 40px;
+    color:green;
 }
 h1 {
     margin:0px;
@@ -59,6 +64,7 @@ h1 {
 .home-image img {
 width:100%
 }
+
 footer {
     padding:6px 40px 6px 40px;
     background-color:lightskyblue;
@@ -70,4 +76,25 @@ footer {
 .separator {
     color:#000000;
     font-size:11px;
+}
+#contact #form {
+    width:500px;
+    padding: 10px 10px 10px 10px;
+    border:2px solid black;
+    margin:0 auto;
+}
+#contact #form input {
+    width:100px;
+    border-radius:5px;
+    height:20px;
+    background-color:#D6D6D6;
+}
+#contact #form #message {
+    width:100%;
+    border-radius:5px;
+    background-color:#D6D6D6;
+}
+#contact #form #submit {
+    height:30px;
+    background-color:rgb(59,118,135);
 }
